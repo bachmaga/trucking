@@ -1,0 +1,15 @@
+{
+    "name":"bachmaga/trucking",
+    "type":"trucking industry",
+    "description":"Api for trucking industry",
+    "version":"1.0.0",
+    "require":{
+        "php":">=5.5.0",
+        "symfony/yaml": "^3.4",
+        "swiftmailer/swiftmailer":"*"
+
+    },
+    "autoload": {
+        "psr-4": { "Trucking\\": "bachmaga/trucking/src" }
+    }
+}
